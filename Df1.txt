@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <style>
+html , body{
+
+    scroll-behavior: smooth;
+    display: grid;
+    grid-template-columns: auto 0px;
+    background-size: cover;
+    background-color:#EAE6CA;
+       min-height: 100%;
+       background-repeat: no-repeat;
+       background-position: center center;
+ 
+}
+@media only screen and (max-width: 767px) {
+  html {
+     background-image: url(smaller-image.jpg);
+  }
+}
+.center1 {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+}
+.toop{
+display: grid;
+place-items: center;
+position: sticky;
+bottom: 20px;
+right: 20px;
+place-self: end;
+margin-top: calc(100vh + 50px);
+text-decoration:none;
+width: 80px;
+height: 40px;
+font-family: sans-serif;
+color: #fff;
+background: #330033;
+border-radius: 6.5px;
+}
+#d {
+font-family: Georgia, serif;
+font-size: 35px;
+letter-spacing: 1.6px;
+word-spacing: 6px;
+color: #ffffff;
+font-weight: 700;
+text-decoration: none solid rgb(68, 68, 68);
+font-style: normal;
+font-variant: small-caps;
+text-transform: uppercase;
+}
+ #navigation {
+ margin: 0;
+ padding: 0 1em;
+ background: #000;
+ height: 3em;
+ list-style: none;
+}
+#navigation > li {
+ float: left;
+ height: 100%;
+ margin-right: 0.5em;
+ padding: 0 1em;
+}
+#navigation > li > a {
+ float: left;
+ height: 100%;
+ color: rgb(145, 152, 143);
+ text-decoration: none;
+ line-height: 3;
+ font-weight: bold;
+ text-transform: uppercase;
+}
+
+#navigation > li > a:hover {
+ color: rgb(92, 91, 102);
+ text-decoration: underline;
+}
+#navigation > li.sub {
+ position: relative;
+}
+#navigation > li.sub ul {
+ width: 10em;
+ margin: 0;
+ padding: 0.5em 0;
+ list-style: none;
+ background: rgb(92, 91, 102);
+ position: absolute;
+ top: -1000em;
+}
+#navigation > li.sub ul li {
+ width: 90%;
+ margin: 0 auto 0.3em auto;
+}
+#navigation > li.sub ul li a {
+ height: 100%;
+ display: block;
+ padding: 0.4em;
+ color: #fff;
+ font-weight: bold;
+ text-decoration: none;
+}
+#navigation > li.sub ul li a:hover {
+ background: rgb(65, 37, 202);
+ text-decoration: underline;
+}
+#navigation > li.sub:hover ul {
+ top: 3em;
+}
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+.active, .collapsible:hover {
+  background-color: #555;
+}
+.content2 {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+.container {
+  font-family: arial;
+  font-size: 24px;
+  height: 200px;
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+}
+#p{
+  text-align: center;
+}
+
+    </style>
+
+    <body >
+       
+        <ul id="navigation">
+            <li><a href="index.html">Home</a></li>
+            <li class="sub">
+             <a href="#">About</a>
+             <ul>
+              <li><a href="page1.html">Us</a></li>
+              <li><a href="./page3.html">Event</a></li>
+              <li><a href="page2.html">Our Work</a></li>
+             </ul>
+            </li>
+           </ul>
+
+        </br>
+        <!-- MC.Rabbit -->
+        <!-- I LOVE YOU AYA MY BABY GIRL -->
+                <br>
+        <div>
+        <div class="container"><h3><strong><p id="p" style="background-color:#777;";>Anass El-Abbadi</p> </strong></h3> </div>
+<button type="button" class="collapsible">Open profel</button>
+<div class="content2">
+  <p>i'am a beginner in programming. I am 21 years old.
+    I obtained a BAC in 2019 in the Division of
+     Life and Earth Sciences. I loved programming
+      since my first year in high school. I 
+      began to learn programming languages and algorithms
+       on YouTube. After my graduation, I completed my
+        studies in a center Ofppt Ifrnae for two years, wher
+        e I learned C# ,Python,Java(android),JavaScript,HTML,CSS
+        ,SQL,Information technology,SoftSkills,Communication...etc
+   My first projects Was With Python language I worked on a spam and bot,
+    ethical hacking was one of the most challenging and enthusiastic
+     magazines for me, and this prompted me to learn more about the 
+     it, especially with regard to (auto script,bots,spam,sql_injection)
+      all of this made me learn more about programming languages such as
+       (SQL,JavaScript,Python)and how it continued My acquaintances in 
+       this field i have also worked on websites for companies, including
+        (BCJ) company.Worked on Windows applications for many organizations
+        , including (communeazrou  · Community) and (Location Voiture S.A.R.L)
+         During a training period for the Training Center (Ofppt) I worked on a
+          network hacker  based on the Python language I worked on a  virus 
+          (medium to weak strength), I worked on many simple 2D games based 
+          on (max2D) and now I am trying to develop my abilities more and work 
+          in more languages and professionalism, and on the other hand I have 
+          been working on developing my skills and abilities in communication 
+          and The work is collective, as I worked in several restaurants from 
+           most notably (Diafa) where I developed my conversational ability 
+           and confidence in myself. I learned a lot from my experience 
+           with my clients, as I improved my ability to deal with problems 
+           from both sides (the work team or clients) I learned how to control
+            my fear, anger or stress  ..........ect I participated in many
+             charitable works and won many certificates of appreciation, as I
+              consider myself an active person who loves movement and positivity.
+               I love reading and research, especially with regard to programming 
+               . It has always been a video production and editing onr of my hobbies
+                I have a channel On YouTube
+   I post some videos .
+   I like to draw (I paint in my spare time) I am a sports lover (especially parkour) I am Anass and this Website is designed by me and this is my character 
+    My motto: I may not know everything, but I promise The next time we
+     will meet, I will give you the appropriate answer for everything.
+    </p>
+  </div>
+  <ul>
+    <li style="font-size:20px"><strong><a href="https://www.youtube.com/channel/UCscBL0sMtf_nZ8Ma00GTZug">Youtube</a></strong></li>  
+  </ul>
+</div>
+<br>
+<div>
+<div id="piechart" class="center1"></div>
+</div>
+<script type="text/javascript" src="./js.js"></script>
+<script type="text/javascript">
+google.charts.load('current', {'packages':['corechart']});
+google.charts.setOnLoadCallback(drawChart);
+function drawChart() {
+  var data = google.visualization.arrayToDataTable([
+  ['Task', 'Hours per Day'],
+  ['Python', 50],
+  ['C#', 40],
+  ['CSS-Javascreipt-Html',35],
+  ['XML', 30],
+  ['SQL', 35]
+]);
+  var options = {'title':'My Level of programing', 'width':550, 'height':400};
+  var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+  chart.draw(data, options);
+}
+</script>
+ <script>
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+  
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.display === "block") {
+        content.style.display = "none";
+      } else {
+        content.style.display = "block";
+      }
+    });
+  }
+  </script>  
+
+
+
+
+
+
+
+
+
+        <!-- MC.future -->
+        <!-- sokaaaaaaaaa...........? -->
+        <a href="#" class="toop">top &#8593;</a>
+    </body>
+</html>
+
